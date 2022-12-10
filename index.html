@@ -50,6 +50,63 @@ FACEBOOK: https://www.facebook.com/themefisher
 
   <!-- Main Stylesheet -->
   <link href="css/style.css" rel="stylesheet">
+  <style>
+   
+
+/* CSS */
+.button-64 {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  z-index: 999;
+   position: absolute;
+   left: 50vw;
+   top: 100px;
+}
+
+.button-64:active,
+.button-64:hover {
+  outline: 0;
+}
+
+.button-64 span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+.button-64:hover span {
+  background: none;
+}
+
+@media (min-width: 768px) {
+  .button-64 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+  </style>
 
 </head>
 <body>
@@ -72,11 +129,11 @@ FACEBOOK: https://www.facebook.com/themefisher
           <a class="nav-link" href="about.html">about</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="blog.html">Blog</a>
+          <a class="nav-link" href="blog.html">Projects</a>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
+        </li> -->
         <li class="nav-item">
           <a class="nav-link" href="contact.html">Contact</a>
         </li>
@@ -85,6 +142,7 @@ FACEBOOK: https://www.facebook.com/themefisher
   </nav>
 </header>
 
+
 <!-- hero area -->
 <section class="hero-area bg-primary" id="parallax">
   <div class="container">
@@ -92,8 +150,12 @@ FACEBOOK: https://www.facebook.com/themefisher
       <div class="col-lg-11 mx-auto">
         <h1 class="text-white font-tertiary">Hi!  <br>I’m Shahriar <br> Web Developer & <br>  A Cybersecurity Specialist </h1>
       </div>
+      <div class="col-lg-11 mx-auto">
+         <a href="https://drive.google.com/uc?id=1VSePszTL6TGlv42imknUZoSeYnKnOayw&export=download"><button class="button-64"  role="button"><span class="text">Get Resume</span></button></a>
+      </div>
     </div>
   </div>
+ 
   <div class="layer-bg w-100">
     <img class="img-fluid w-100" src="images/illustrations/leaf-bg.png" alt="bg-shape">
   </div>
@@ -129,6 +191,7 @@ FACEBOOK: https://www.facebook.com/themefisher
     <li class="mb-3"><a class="text-white" href="https://themefisher.com/"><i class="ti-twitter"></i></a></li> -->
   </ul>
   <!-- /social icon -->
+  
 </section>
 <!-- /hero area -->
 
@@ -483,16 +546,16 @@ portfolio -->
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h2 class="section-title">Blogs</h2>
+        <h2 class="section-title">Projects</h2>
       </div>
       <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
         <article class="card shadow">
           <img class="rounded card-img-top" src="images/blog/post-3.jpg" alt="post-thumb">
           <div class="card-body">
-            <h4 class="card-title"><a class="text-dark" href="blog-single.html">Twitter increase income 1 Million</a>
+            <h4 class="card-title"><a class="text-dark" target="_blank" href="http://paradoxeren.ninja">Mess Management Portal</a>
             </h4>
             <p class="cars-text"></p>
-            <a href="blog-single.html" class="btn btn-xs btn-primary">Read More</a>
+            <a href="http://paradoxeren.ninja" target="_blank" class="btn btn-xs btn-primary">Visit Project</a>
           </div>
         </article>
       </div>
